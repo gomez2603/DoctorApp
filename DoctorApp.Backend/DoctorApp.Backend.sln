@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorApp.Data", "DoctorApp.Data\DoctorApp.Data.csproj", "{199A392C-919A-4F80-98E6-2355A6D2FFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorApp.Models", "DoctorApp.Models\DoctorApp.Models.csproj", "{4F632421-B0CC-4E14-8B23-8D9C650B6241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorApp.Api", "DoctorApp.Api\DoctorApp.Api.csproj", "{33F50C02-25F4-4D6A-A48B-910AFBEFFCD9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199A392C-919A-4F80-98E6-2355A6D2FFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199A392C-919A-4F80-98E6-2355A6D2FFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199A392C-919A-4F80-98E6-2355A6D2FFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199A392C-919A-4F80-98E6-2355A6D2FFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F632421-B0CC-4E14-8B23-8D9C650B6241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F632421-B0CC-4E14-8B23-8D9C650B6241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F632421-B0CC-4E14-8B23-8D9C650B6241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F632421-B0CC-4E14-8B23-8D9C650B6241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F50C02-25F4-4D6A-A48B-910AFBEFFCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F50C02-25F4-4D6A-A48B-910AFBEFFCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F50C02-25F4-4D6A-A48B-910AFBEFFCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F50C02-25F4-4D6A-A48B-910AFBEFFCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
