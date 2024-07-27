@@ -1,0 +1,28 @@
+<div class="loginForm">
+    <h1 style="display: block;">Bienvenido</h1>
+    <h2>Registrate para comenzar</h2>
+    
+    <form [formGroup]="formRegister"  (ngSubmit)="register()" >
+    <diV>
+    <mat-form-field class="example-full-width">
+        <mat-label><mat-icon>person_pin</mat-icon> Username</mat-label>
+        <input formControlName="username" matInput placeholder="celina_rdz_" value="">
+      </mat-form-field>
+    </diV>
+    <diV>
+      <mat-form-field class="example-full-width">
+        <mat-label>	<mat-icon>lock</mat-icon> Password</mat-label>
+        <input type="password" formControlName="password" matInput placeholder="celina_rdz_" value="">
+      </mat-form-field>
+    </diV>
+ 
+
+    <button class="btnLogin">
+      Registrarse
+    </button>
+    </form>
+    
+    <div >
+      <p>si ya tienes una cuena incia sesión <a routerLink="/login">aqui</a></p>
+    </div>
+    </div>

@@ -1,0 +1,9 @@
+<div class="loginContainer">
+
+<div *ngIf="currentScreenSize != 'XSmall' && currentScreenSize !='Small'" class="portada">
+<img  src="./../../../assets/DoctorApp.png" style="align-self: center; max-height: 150px;"> 
+</div>
+<div  class="loginForm" [ngClass]="{'radius': currentScreenSize == 'XSmall' || currentScreenSize =='Small'}" >
+<router-outlet></router-outlet>
+</div>
+</div>

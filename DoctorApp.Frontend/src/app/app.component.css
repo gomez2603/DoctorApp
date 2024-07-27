@@ -1,0 +1,10 @@
+.container{
+    max-width: 1366px;
+    margin:  auto;
+    padding: 10px;
+
+}
+body{
+    background: rgb(247,250,255);
+    background: linear-gradient(0deg, rgba(247,250,255,1) 50%, rgba(28,152,152,1) 100%);
+}
